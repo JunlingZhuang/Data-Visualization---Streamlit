@@ -25,3 +25,8 @@ option = st.selectbox(
      df['first column'])
 
 'You selected: ', option
+
+st.text_input("Your name", key="name")
+
+# You can access the value at any point with:
+st.session_state.name

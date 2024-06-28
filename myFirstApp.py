@@ -28,5 +28,8 @@ option = st.selectbox(
 
 st.text_input("Your name", key="name")
 
+st.text_input("Your age", key="name")
+
+
 # You can access the value at any point with:
 st.session_state.name
